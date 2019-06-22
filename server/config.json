@@ -1,0 +1,5 @@
+{
+    "staticDir": "server/public",
+    "bundleName": "bundle",
+    "port": "9000"
+}
