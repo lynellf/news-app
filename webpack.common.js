@@ -23,7 +23,13 @@ const server = {
         ],
         loader: 'babel-loader',
         query: {
-          presets: ["@babel/env", "@babel/typescript"],
+          presets: [[
+            "@babel/preset-env", {
+              "targets": {
+                "node": "10"
+              }
+            }
+          ], "@babel/typescript"],
           plugins: ["@babel/proposal-class-properties", "@babel/proposal-object-rest-spread"]
         }
       }]
