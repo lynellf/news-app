@@ -1,0 +1,691 @@
+{
+  "data": {
+    "status": "ok",
+    "totalResults": 57,
+    "articles": [{
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Reuters Editorial",
+      "title": "Iran will 'pay the price' if persists with aggression, Saudi minister tells Le Monde",
+      "description": "Saudi Arabia's Minister of State for Foreign Affairs warned Iran there would be more sanctions if it continued its \"aggressive polices\", but said Riyadh wanted to avoid war.",
+      "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/mKexVxu8YYI/iran-will-pay-the-price-if-persists-with-aggression-saudi-minister-tells-le-monde-idUSKCN1TP165",
+      "urlToImage": "https://s2.reutersmedia.net/resources/r/?m=02&d=20190624&t=2&i=1400981480&w=1200&r=LYNXNPEF5N0QC",
+      "publishedAt": "2019-06-24T10:38:39Z",
+      "content": "PARIS (Reuters) - Saudi Arabia’s Minister of State for Foreign Affairs warned Iran there would be more sanctions if it continued its “aggressive polices”, but said Riyadh wanted to avoid war. \r\n“Today, Iran is under severe economic sanctions,” Adel al-Jubeir … [+225 chars]"
+    }, {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Reuters Editorial",
+      "title": "'Flying Wallendas' cross Times Square on high wire",
+      "description": "A brother and sister tightrope act crossed Times Square on a high wire 25 floors above the New York landmark on Sunday night.",
+      "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/chJpGLP_THQ/flying-wallendas-cross-times-square-on-high-wire-idUSKCN1TP09E",
+      "urlToImage": "https://s3.reutersmedia.net/resources/r/?m=02&d=20190624&t=2&i=1400979736&w=1200&r=LYNXNPEF5N0PL",
+      "publishedAt": "2019-06-24T10:30:07Z",
+      "content": "(Reuters) - A brother and sister tightrope act crossed Times Square on a high wire 25 floors above the New York landmark on Sunday night. \r\nNik and Lijana Wallenda, of the “Flying Wallendas” circus and stunt-performing family, walked from opposite sides of th… [+811 chars]"
+    }, {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "GEOFF MULVIHILL",
+      "title": "Q&A: Census citizenship question sparks legal debate, fears",
+      "description": "The U.S. Supreme Court is expected to rule this week on a request from the Census Bureau to ask everyone in the country about citizenship status. The plan has set off litigation and debate and...",
+      "url": "https://apnews.com/4757a2f6546b45938c31e00937ba7f78",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/3690dce385dd414eb5cdc04f6b740544/3000.jpeg",
+      "publishedAt": "2019-06-24T10:28:59Z",
+      "content": null
+    }, {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Stephen Kalin",
+      "title": "Pompeo visits Saudi Arabia as U.S. prods Iran for talks",
+      "description": "U.S. Secretary of State Mike Pompeo met with Saudi Arabia's king on Monday on a visit to key Gulf allies amid heightened tensions with Tehran after President Donald Trump called off a military strike to retaliate for Iran's downing of a U.S. drone.",
+      "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/b_Bu3MLmyYw/pompeo-visits-saudi-arabia-as-u-s-prods-iran-for-talks-idUSKCN1TP0MO",
+      "urlToImage": "https://s4.reutersmedia.net/resources/r/?m=02&d=20190624&t=2&i=1400979099&w=1200&r=LYNXNPEF5N0FY",
+      "publishedAt": "2019-06-24T10:25:43Z",
+      "content": "RIYADH (Reuters) - U.S. Secretary of State Mike Pompeo met with Saudi Arabia’s king on Monday on a visit to key Gulf allies amid heightened tensions with Tehran after President Donald Trump called off a military strike to retaliate for Iran’s downing of a U.S… [+2679 chars]"
+    }, {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Raspberry Pi used to steal data from Nasa",
+      "description": "Lax security at a Nasa lab let a hacker lurk on the agency's network for almost a year, says report.",
+      "url": "http://www.bbc.co.uk/news/technology-48743043",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/D1ED/production/_107514735_054640903-1.jpg",
+      "publishedAt": "2019-06-24T10:24:41Z",
+      "content": "Image copyrightReutersImage caption\r\n The Jet Propulsion Lab is currently constructing the Mars 2020 rover\r\nA tiny Raspberry Pi computer has been used to steal data from Nasa's Jet Propulsion Laboratory, the space agency has revealed.\r\nAn audit report reveals… [+2152 chars]"
+    }, {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "AYA BATRAWY and NASSER KARIMI",
+      "title": "Pompeo in Saudi Arabia, Iran threatens more US drone attacks",
+      "description": "DUBAI, United Arab Emirates (AP) — U.S. Secretary of State Mike Pompeo was in Saudi Arabia on Monday in a hastily arranged visit amid mounting tensions between Washington and Tehran as Iran's navy...",
+      "url": "https://apnews.com/cf67b367c4164d4885ce14a3126eaa2d",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/beeacab8f35d4d4c84f695eda5da0056/3000.jpeg",
+      "publishedAt": "2019-06-24T10:24:28Z",
+      "content": null
+    }, {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Stephen Kalin",
+      "title": "Kushner's economic plan for Mideast peace faces broad Arab rejection",
+      "description": "Arab politicians and commentators greeted U.S. President Donald Trump's $50 billion Middle East economic vision with a mixture of derision and exasperation, although some in the Gulf called for it to be given a chance.",
+      "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/RqMHv2PQobU/kushners-economic-plan-for-mideast-peace-faces-broad-arab-rejection-idUSKCN1TN0RW",
+      "urlToImage": "https://s1.reutersmedia.net/resources/r/?m=02&d=20190623&t=2&i=1400752878&w=1200&r=LYNXNPEF5M09A",
+      "publishedAt": "2019-06-24T10:19:52Z",
+      "content": "RIYADH/AMMAN/CAIRO (Reuters) - Arab politicians and commentators greeted U.S. President Donald Trump’s $50 billion Middle East economic vision with a mixture of derision and exasperation, although some in the Gulf called for it to be given a chance. \r\nIn Isra… [+6510 chars]"
+    }, {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Maayan Lubell",
+      "title": "Factbox: Many sticks, few carrots: Trump's Palestinian policy",
+      "description": "A series of dramatic policy moves by U.S. President Donald Trump on sensitive issues in the Israeli-Palestinian conflict preceded a U.S.-sponsored workshop opening in Bahrain on Tuesday, aimed at showcasing the economic benefits a peace deal could bring.",
+      "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/40O_9e-nnGU/factbox-many-sticks-few-carrots-trumps-palestinian-policy-idUSKCN1TP13M",
+      "urlToImage": "https://s2.reutersmedia.net/resources/r/?m=02&d=20190624&t=2&i=1400976818&w=1200&r=LYNXNPEF5N0OI",
+      "publishedAt": "2019-06-24T10:19:52Z",
+      "content": "JERUSALEM (Reuters) - A series of dramatic policy moves by U.S. President Donald Trump on sensitive issues in the Israeli-Palestinian conflict preceded a U.S.-sponsored workshop opening in Bahrain on Tuesday, aimed at showcasing the economic benefits a peace … [+5087 chars]"
+    }, {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Vietnam jails US man for 'state overthrow plot'",
+      "description": "Michael Phuong Minh Nguyen is sentenced to 12 years in jail after a trial that lasted just half a day.",
+      "url": "http://www.bbc.co.uk/news/world-asia-48742412",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11C11/production/_107512727_a4406c00-1cf1-40c8-bc10-5cf6bdd507ae.jpg",
+      "publishedAt": "2019-06-24T10:15:55Z",
+      "content": "Image copyrightReutersImage caption\r\n Michael Phuong Minh Nguyen (centre) was convicted during a trial that lasted just half a day\r\nA court in Vietnam has sentenced a US citizen to 12 years in prison after finding him guilty of attempting to \"overthrow the st… [+1239 chars]"
+    }, {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Bozorgmehr Sharafedin",
+      "title": "Iran says U.S. cyber attacks fail, hints at possible talks",
+      "description": "Iran said on Monday U.S. cyber attacks on its military had been a failure, while also hinting that it could be willing to discuss new concessions with Washington if the United States were to lift sanctions and offer new incentives.",
+      "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/aoJpd7MqKLc/iran-says-u-s-cyber-attacks-fail-hints-at-possible-talks-idUSKCN1TP13D",
+      "urlToImage": "https://s2.reutersmedia.net/resources/r/?m=02&d=20190624&t=2&i=1400975124&w=1200&r=LYNXNPEF5N0OC",
+      "publishedAt": "2019-06-24T10:13:19Z",
+      "content": "LONDON (Reuters) - Iran said on Monday U.S. cyber attacks on its military had been a failure, while also hinting that it could be willing to discuss new concessions with Washington if the United States were to lift sanctions and offer new incentives. \r\nThe lo… [+4176 chars]"
+    }, {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Tim Reid",
+      "title": "Democratic Mayor Buttigieg faces growing fallout over police shooting in his city",
+      "description": "Democratic presidential candidate Pete Buttigieg on Sunday faced growing fallout over a fatal police shooting in South Bend, an incident that has exposed simmering racial tensions in the Indiana city where he is mayor and which is complicating his presidentia…",
+      "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/5jpumI2E3JI/democratic-mayor-buttigieg-faces-growing-fallout-over-police-shooting-in-his-city-idUSKCN1TO0YY",
+      "urlToImage": "https://s3.reutersmedia.net/resources/r/?m=02&d=20190623&t=2&i=1400821922&w=1200&r=LYNXNPEF5M0Z7",
+      "publishedAt": "2019-06-24T10:10:57Z",
+      "content": "SOUTH BEND, Indiana (Reuters) - Democratic presidential candidate Pete Buttigieg on Sunday faced growing fallout over a fatal police shooting in South Bend, an incident that has exposed simmering racial tensions in the Indiana city where he is mayor and which… [+3792 chars]"
+    }, {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": null,
+      "title": "Amid Racial Divisions, Mayor’s Plan to Scrap Elite School Exam Fails",
+      "description": "Opposition from Asian lawmakers and a billionaire’s lobbying push helped block Bill de Blasio’s plan to desegregate New York’s specialized schools.",
+      "url": "https://www.nytimes.com/2019/06/24/nyregion/specialized-schools-nyc-deblasio.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/06/21/nyregion/21specialized1/merlin_153427089_ceea909c-ccad-410d-8f81-3bd26b73b6e3-facebookJumbo.jpg",
+      "publishedAt": "2019-06-24T10:08:43.669Z",
+      "content": "Perhaps sensing some of his colleagues skittishness on the issue, Mr. Heastie did not bring it to the floor of the Assembly for consideration after it passed out of the education committee, dashing Mr. de Blasios hopes of even a symbolic vote in favor of his … [+1324 chars]"
+    }, {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Reuters Editorial",
+      "title": "Ex-Trump adviser Flynn to appear in court with Mueller critic as his new lawyer",
+      "description": "U.S. President Donald Trump's convicted former national security adviser Michael Flynn will appear in court on Monday for the first time since hiring a new lawyer who criticized Special Counsel Robert Mueller's investigation into Russian interference in the 2…",
+      "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/QiG94UOkBi0/ex-trump-adviser-flynn-to-appear-in-court-with-mueller-critic-as-his-new-lawyer-idUSKCN1TP12I",
+      "urlToImage": "https://s4.reutersmedia.net/resources/r/?m=02&d=20190624&t=2&i=1400973593&w=1200&r=LYNXNPEF5N0NR",
+      "publishedAt": "2019-06-24T10:06:40Z",
+      "content": "WASHINGTON (Reuters) - U.S. President Donald Trump’s convicted former national security adviser Michael Flynn will appear in court on Monday for the first time since hiring a new lawyer who criticized Special Counsel Robert Mueller’s investigation into Russia… [+2511 chars]"
+    }, {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Reuters Editorial",
+      "title": "Storms strand passengers in Dallas, thousands without power",
+      "description": "About 1,000 flights were canceled or delayed in Dallas on Sunday night and more than 80,000 homes and businesses left without power early Monday, after a line of thunderstorms rolled across a northeastern swath of Texas before heading east.",
+      "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/SxH8nFXWqTk/storms-strand-passengers-in-dallas-thousands-without-power-idUSKCN1TP0YZ",
+      "urlToImage": "https://s4.reutersmedia.net/resources/r/?m=02&d=20190624&t=2&i=1400971487&w=1200&r=LYNXNPEF5N0M8",
+      "publishedAt": "2019-06-24T09:56:58Z",
+      "content": "(Reuters) - About 1,000 flights were canceled or delayed in Dallas on Sunday night and more than 80,000 homes and businesses left without power early Monday, after a line of thunderstorms rolled across a northeastern swath of Texas before heading east. \r\nA li… [+1277 chars]"
+    }, {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "The Associated Press",
+      "title": "10 Things to Know for Today",
+      "description": "Your daily look at late breaking news, upcoming events and the stories that will be talked about today:1. POMPEO IN GULF TO SHORE UP ALLIESThe U.S. secretary of state says he will...",
+      "url": "https://apnews.com/df086346b72e471d9ac1b076efee06b9",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/b39d95fa66af4365968ebb83c47395a0/3000.jpeg",
+      "publishedAt": "2019-06-24T09:53:53Z",
+      "content": null
+    }, {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "STEVE PEOPLES",
+      "title": "New phase in 2020 presidential race tests Dems' aggression",
+      "description": "NEW YORK (AP) — The unwritten rules that have so far prevented the Democratic presidential contest from devolving into all-out conflict are about to be tested.The early front-runner ,...",
+      "url": "https://apnews.com/656f35bfe6a74480b309b0616fc5ed43",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/8fc31609e7694737af27bce129f39090/3000.jpeg",
+      "publishedAt": "2019-06-24T09:52:55Z",
+      "content": null
+    }, {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": null,
+      "title": "A Year in Paris That Transformed Jacqueline Kennedy Onassis",
+      "description": "As a college student, Jacqueline Bouvier spent her junior year in Paris, and the city became one of the greatest influences in her life.",
+      "url": "https://www.nytimes.com/2019/06/23/travel/paris-jacqueline-bouvier-kennedy-onassis-college.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/06/24/travel/24Paris-Jackie-historic/24Paris-Jackie-historic-facebookJumbo.jpg",
+      "publishedAt": "2019-06-24T09:50:40.615Z",
+      "content": "Paris continued to call to Jacqueline after her 1968 marriage to the Greek shipping magnate, Aristotle Onassis. (No stranger to the City of Light, he owned an imposing apartment at 88 Avenue Foch in the 16th arrondissement, and even had his own preferred tabl… [+2094 chars]"
+    }, {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": null,
+      "title": "Buttigieg criticized at emotional town hall after shooting",
+      "description": "SOUTH BEND, Ind. (AP) — Democratic presidential candidate Pete Buttigieg faced criticism Sunday from angry residents of South Bend, Indiana, at an emotional town hall meeting a week after a white...",
+      "url": "https://apnews.com/17649c0203114844a13fcf1ae34bb833",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/ce52f6515a0a44729e3506bb74079cd6/3000.jpeg",
+      "publishedAt": "2019-06-24T09:47:57Z",
+      "content": null
+    }, {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "JENNIFER PELTZ",
+      "title": "Stories of Stonewall: How the LGBTQ rebellion left a legacy",
+      "description": "NEW YORK (AP) — Michael Olenick was 19 and living a secret social life, letting loose with friends at a speakeasy-like bar with blacked-out windows and one of the few floors in town where men...",
+      "url": "https://apnews.com/5f2159a5120e4833b31683665f9405ca",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/1d56214295684b94814579024cc614e8/3000.jpeg",
+      "publishedAt": "2019-06-24T09:46:06Z",
+      "content": null
+    }, {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Humeyra Pamuk",
+      "title": "Turkey's opposition strikes blow to Erdogan with Istanbul mayoral win",
+      "description": "Turkey's opposition has dealt President Tayyip Erdogan a stinging blow by winning control of Istanbul in a re-run mayoral election, breaking his aura of invincibility and delivering a message from voters unhappy over his ever tighter grip on power.",
+      "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/r6OlHMgCloE/turkeys-opposition-strikes-blow-to-erdogan-with-istanbul-mayoral-win-idUSKCN1TP04C",
+      "urlToImage": "https://s1.reutersmedia.net/resources/r/?m=02&d=20190624&t=2&i=1400968612&w=1200&r=LYNXNPEF5N03A",
+      "publishedAt": "2019-06-24T09:44:57Z",
+      "content": "ISTANBUL (Reuters) - Turkey’s opposition has dealt President Tayyip Erdogan a stinging blow by winning control of Istanbul in a re-run mayoral election, breaking his aura of invincibility and delivering a message from voters unhappy over his ever tighter grip… [+4495 chars]"
+    }, {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "NASSER KARIMI and MOHAMMAD NASIRI",
+      "title": "Iranians say their 'bones breaking' under US sanctions",
+      "description": "TEHRAN, Iran (AP) — As the U.S. piles sanction after sanction on Iran, it's the average person who feels it the most.From a subway performer's battered leather hat devoid of tips, to a...",
+      "url": "https://apnews.com/9390faa746294f628b93beea57ba1e07",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/647ce1f4bccd48e1992360da607cfbd5/3000.jpeg",
+      "publishedAt": "2019-06-24T09:38:52Z",
+      "content": null
+    }, {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Ethiopia 'coup ringleader on the run'",
+      "description": "Flags are flying at half-mast as Prime Minister Abiy declares a day of mourning for killed officials.",
+      "url": "http://www.bbc.co.uk/news/world-africa-48743081",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p07dy0gq.jpg",
+      "publishedAt": "2019-06-24T08:27:51Z",
+      "content": "Media captionPM's spokeswoman gives details of army chief's assassination\r\nThe suspected ringleader of Saturday's failed coup plot in Ethiopia's Amhara region is on the run, a senior security official has told the BBC. \r\nFour top officials, including the army… [+5015 chars]"
+    }, {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "'Greatest day' in Australian women's sport",
+      "description": "The nation woke up on Monday to an extraordinary succession of achievements, causing much local joy.",
+      "url": "http://www.bbc.co.uk/news/world-australia-48740575",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/D873/production/_107511455_0fdecbb0-7db9-4ff6-89df-592c44b4250a.jpg",
+      "publishedAt": "2019-06-24T08:19:42Z",
+      "content": "Image copyrightReutersImage caption\r\n Ashleigh Barty will become the new world number one in tennis\r\nIt has been described by many as the greatest day in Australian women's sporting history.\r\nAustralians woke up on Monday to a cascade of achievements from the… [+5260 chars]"
+    }, {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": null,
+      "title": "For Erdogan, the Bill for Turkey’s Debt-Fueled Growth Comes Due",
+      "description": "Istanbul voters’ rebuke of the nation’s strongman leader speaks to broader dismay over the economic disaster he oversaw.",
+      "url": "https://www.nytimes.com/2019/06/24/business/turkey-erdogan-istanbul-election-economy-inflation.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/06/24/world/24turkeyecon-1sub/24turkeyecon-1sub-facebookJumbo.jpg",
+      "publishedAt": "2019-06-24T08:00:00Z",
+      "content": "But high rates also make borrowing more expensive for Turkish businesses and consumers, depressing sales of cars, discouraging new ventures and constraining economic activity in general.\r\nMr. Erdogan has famously railed against high interest rates as the supp… [+1127 chars]"
+    }, {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "https://www.facebook.com/saltlaketribune",
+      "title": "Tribune Editorial: Yes, we do have concentration camps",
+      "description": "Yes, we do have concentration camps.",
+      "url": "https://www.sltrib.com/opinion/editorial/2019/06/22/tribune-editorial-yes-we/",
+      "urlToImage": "https://www.sltrib.com/resizer/v8oa6Jo3fxTCpkULosWBB6tG2Gg=/1200x630/filters:quality(85)/arc-anglerfish-arc2-prod-sltrib.s3.amazonaws.com/public/AX3AZLKQZRHY7DQLFKLK5YAROY.jpg",
+      "publishedAt": "2019-06-24T07:50:35+00:00",
+      "content": "Yes, we do have concentration camps.\r\n They are not work camps. They are not death camps. At least, not on purpose. Our government is not building massive gas chambers and industrial crematoria. It is not conducting sick medical experiments on members of an u… [+3942 chars]"
+    }, {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Mersiha Gadzo",
+      "title": "'Get Israel off our backs': Palestinians react to Kushner plan",
+      "description": "Economic plan fails to address main problem stunting Palestine's economy - Israel's occupation, experts say.",
+      "url": "https://www.aljazeera.com/news/2019/06/israel-backs-palestinians-react-kushner-plan-190623191830426.html",
+      "urlToImage": "https://www.aljazeera.com/mritems/Images/2019/6/24/5b822b6170044c37b342cc65655d9589_18.jpg",
+      "publishedAt": "2019-06-24T07:43:00+00:00",
+      "content": "Analysts have rebuked the economic part of the United States's Middle East peace plan for failing to address the main problem that has heavily curbed the Palestinian economy - the 52-year-old Israeli military occupation over the Palestinian territories.\r\nThe … [+7069 chars]"
+    }, {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "France braces for 40C heatwave",
+      "description": "It could feel like 47C in Paris this week as high humidity makes a hot June feel even hotter.",
+      "url": "http://www.bbc.co.uk/news/world-europe-48742241",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/D55D/production/_107512645_gettyimages-1012041070.jpg",
+      "publishedAt": "2019-06-24T07:01:46Z",
+      "content": "Image copyrightGetty ImagesImage caption\r\n A Canadian tourist cools down in the Trocadero's fountains in August 2018 amid another heatwave\r\nFrance is braced for a heatwave with temperatures forecast to exceed 40C this week potentially breaking the record for … [+2041 chars]"
+    }, {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": null,
+      "title": "Stand-Ins, Push-Ups and Long Drives: How the 2020 Field Is Preparing for the Debates",
+      "description": "The debates on Wednesday and Thursday nights may represent the best — and for some, the only — opportunity to stand out in an enormous primary field.",
+      "url": "https://www.nytimes.com/2019/06/24/us/politics/democratic-candidates-debates-preparation.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/06/23/us/politics/23debate-prep/23debate-prep-facebookJumbo.jpg",
+      "publishedAt": "2019-06-24T07:00:07Z",
+      "content": "We have contrast with Biden, we have contrast with Bernie, we have contrast with maybe a couple with Kamala, Ms. Gillibrand said, ticking off rivals one by one. We have contrast, certainly, with Bennet. I dont know what Andrew Yang what his platform is, so I … [+876 chars]"
+    }, {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Nipsey Hussle honoured at BET Awards",
+      "description": "The rapper was shot dead in March aged 33.",
+      "url": "http://www.bbc.co.uk/news/newsbeat-48741741",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9999/production/_107512393_getty_bettop.jpg",
+      "publishedAt": "2019-06-24T06:58:44Z",
+      "content": "Image copyrightGetty Images\r\nThe carpet was blue at the BET Awards in a tribute to Nipsey Hussle, who was shot dead aged 33 in March.\r\nThe rapper was also given the Best Male Hip Hop Artist and Humanitarian Awards.\r\nJohn Legend and DJ Khaled performed a music… [+2706 chars]"
+    }, {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "AUDREY McAVOY",
+      "title": "New technology helps search teams find people in wilderness",
+      "description": "HONOLULU (AP) — Yesenia D'Alessandro loaded a GPS tracking app on her cellphone and trudged into a remote Hawaii forest, joining more than 100 other volunteers looking for a missing...",
+      "url": "https://apnews.com/fc96196829be44c8812d62e7f4f7325b",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/2a10f5a23f074fd39b431ecf01db295b/3000.jpeg",
+      "publishedAt": "2019-06-24T05:26:30Z",
+      "content": null
+    }, {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "ALEXANDRA OLSON",
+      "title": "50 years later, the moon is still great for business",
+      "description": "NEW YORK (AP) — Fifty years after humans first visited, businesses are still trying to make a buck off the moon.Hundreds of millions of people were riveted when Apollo 11 landed on the moon...",
+      "url": "https://apnews.com/996310c61673462bb0c7d85711bdc317",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/a6085effcbde4e659ea099306d36447b/1290.jpeg",
+      "publishedAt": "2019-06-24T05:10:46Z",
+      "content": null
+    }, {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "MESFIN FEKADU",
+      "title": "BET Awards honor Mary J. Blige, Nipsey Hussle, Tyler Perry",
+      "description": "The 2019 BET Awards featured a number of contemporary pop and rap stars who are dominating the charts, from Cardi B to Lil Nas X. But the show belonged to artists viewed as icons in the black...",
+      "url": "https://apnews.com/9bdc9b8b8ccf4e3aaa80f9af33189800",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/23e6fb03945e4308be85e91c1c998cdf/3000.jpeg",
+      "publishedAt": "2019-06-24T04:49:50Z",
+      "content": null
+    }, {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Ryan Nobles and Gregory Krieg, CNN",
+      "title": "Bernie Sanders to unveil plan to cancel all $1.6 trillion of student loan debt",
+      "description": "Sen. Bernie Sanders is set to stake out uncharted territory in the Democratic presidential primary, offering up a plan to completely eliminate the student loan debt of every American.",
+      "url": "https://www.cnn.com/2019/06/23/politics/bernie-sanders-student-loan-debt-cancellation/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190514151855-sanders-0513-super-tease.jpg",
+      "publishedAt": "2019-06-24T03:45:00+00:00",
+      "content": "(CNN)Sen. Bernie Sanders is set to stake out uncharted territory in the Democratic presidential primary, offering up a plan to completely eliminate the student loan debt of every American.\r\nOn Monday, Sanders will submit legislation that cancels $1.6 trillion… [+3584 chars]"
+    }, {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "CBS News",
+      "title": "Flights temporarily suspended: Dallas/Fort Worth International Airport and Dallas Love Field communications problem — live updates",
+      "description": "The FAA said radio communications were interrupted at Dallas/Fort Worth International Airport and Dallas Love Field on Sunday night",
+      "url": "https://www.cbsnews.com/news/dallas-fort-worth-international-airport-dallas-love-field-temporary-flights-suspended-today-2019-06-23/",
+      "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2011/04/13/58607bd4-a643-11e2-a3f0-029118418759/thumbnail/1200x630g9/44cf25cf08296c1cb04241964d92de10/AP665016.jpg",
+      "publishedAt": "2019-06-24T02:55:00+00:00",
+      "content": "Communications with radar control have been restored at Dallas Love Field Airport and Dallas/Fort Worth International Airport after a lightning strike damaged transmission equipment, reports CBS Dallas/Fort Worth, citing the Federal Aviation Administration (F… [+376 chars]"
+    }, {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Jack Turman",
+      "title": "Pete Buttigieg faces off with residents in tense, raw South Bend town hall",
+      "description": "The South Bend mayor and presidential candidate has been addressing the police shooting of an African American man last Sunday",
+      "url": "https://www.cbsnews.com/news/mayor-pete-buttigieg-faces-community-members-in-south-bend-town-hall/",
+      "urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2019/06/24/e15bef81-b8fb-4131-9c40-2c5de4ea04b9/thumbnail/1200x630g2/2b34657c4cb97fd0fdf0a2a8e59043c0/pete-buttigieg-town-hall-south-bend-indiana.png",
+      "publishedAt": "2019-06-24T02:50:00+00:00",
+      "content": "South Bend mayor and 2020 Democratic presidential candidate Pete Buttigieg faced his constituents at a tense town hall Sunday afternoon one week after the fatal shooting of Eric Logan, an African American man, by South Bend Police Sgt. Ryan O'Neill, a white p… [+4610 chars]"
+    }, {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "India tent collapse kills 14, injures 50",
+      "description": "Officials say some were electrocuted when storms caused a tent to collapse at a religious event.",
+      "url": "http://www.bbc.co.uk/news/world-asia-india-48741021",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/D6E3/production/_107511055_hi054844261.jpg",
+      "publishedAt": "2019-06-24T02:40:33Z",
+      "content": "Image copyrightAFPImage caption\r\n Some 300 people were said to be sitting under a large marquee when it collapsed\r\nAt least 14 people were killed and more than 50 injured when heavy rain and strong winds caused a huge tent to collapse in the Indian state of R… [+753 chars]"
+    }, {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Blow for Erdogan in re-run Istanbul poll",
+      "description": "The opposition victory in the mayoral race delivers the Turkish president his worst election setback.",
+      "url": "https://www.bbc.com/news/world-europe-48739256",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p07dzh98.jpg",
+      "publishedAt": "2019-06-24T01:41:14+00:00",
+      "content": "Media captionEkrem Imamoglu and his supporters celebrate in Istanbul\r\nTurkey's ruling AK Party has lost control of Istanbul after a re-run of the city's mayoral election, delivering a stinging blow to President Erdogan.\r\nWith nearly all ballots counted, main … [+3996 chars]"
+    }, {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "Trump's new sanctions could deal blow ‘right to the heart’ of Iranian economy, Rep. Turner says",
+      "description": "President Trump has promised new sanctions against Iran on Monday on top of what has already been a crippling \"maximum pressure campaign,\" and Rep. Mike Turner discussed just how bad it could get for the Islamic nation's economy.",
+      "url": "https://www.foxnews.com/politics/trumps-new-sanctions-could-deal-blow-right-to-the-heart-of-iranian-economy-rep-turner-says",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/06/ContentBroker_contentid-1510a85b8a074a248cab62f98f9a1f15.png",
+      "publishedAt": "2019-06-23T23:31:48+00:00",
+      "content": "President Trump has promised new sanctions against Iran on Monday on top of what has already been a crippling \"maximum pressure campaign,\" and Rep. Mike Turner, R-Ohio, discussed just how bad it could get for the Islamic nation's economy.\r\nTurner said that th… [+2554 chars]"
+    }, {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": null,
+      "title": "What Happens After Amazon’s Domination Is Complete? Its Bookstore Offers Clues",
+      "description": "Popular novels, technical tomes and self-published books are pirated and sold on Amazon. That may actually be helping the company extend its grip on the book business.",
+      "url": "https://www.nytimes.com/2019/06/23/technology/amazon-domination-bookstore-books.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/06/23/business/23counterfeit1/00amazoncounterfeit1-facebookJumbo.jpg",
+      "publishedAt": "2019-06-23T21:06:40Z",
+      "content": "Last year, he used Amazons self-publishing platform to issue Adventure, about the Atari 2600.\r\nSome counterfeit books, like Mr. Thomass, are wholly made on Amazon. Sometimes they come from elsewhere.\r\nOne example is The Art of Assembly Language, an older comp… [+1452 chars]"
+    }, {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Why police are hunting a group of US state senators",
+      "description": "Republicans from Oregon have been missing since walking out over a climate change law on Thursday.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-48737711",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0884/production/_107508120_gettyimages-507449350.jpg",
+      "publishedAt": "2019-06-23T21:00:39Z",
+      "content": "Image copyrightAFPImage caption\r\n The state's governor has tasked state troopers with finding the absentees\r\nEleven Republican senators from the state of Oregon are in hiding. \r\nThey walked out of Salem's Capitol building on Thursday and state police have bee… [+4350 chars]"
+    }, {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "https://www.washingtonexaminer.com/author/john-gage",
+      "title": "Vicitims identified in New Hampshire 'Marine Jarheads MC' motorcycle pileup",
+      "description": "Officials announced Sunday the identities of the seven bikers who died in a 10-motorcycle pileup in New Hampshire after a pickup truck hit them.",
+      "url": "https://www.washingtonexaminer.com/news/marine-jarheads-mc-motorcycle-pile-up-kills-seven-in-new-hampshire",
+      "urlToImage": "https://mediadc.brightspotcdn.com/dims4/default/b9acef1/2147483647/strip/true/crop/3724x1955+0+97/resize/1200x630!/quality/90/?url=https%3A%2F%2Fmediadc.brightspotcdn.com%2Ff7%2F43%2F21818fa24843b22061b262aeccf6%2Fap-19173859535939.jpg",
+      "publishedAt": "2019-06-23T20:48:00+00:00",
+      "content": "Officials announced Sunday the identities of the seven bikers who died in a 10-motorcycle pileup in New Hampshire after a pickup truck hit them. \r\nJoanne and Edward Corr, both 58; Michael Ferazzi, 62; Albert Mazza, 49; Daniel Pereira, 58; Aaron Perry, 45; and… [+1088 chars]"
+    }, {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": null,
+      "title": "Trump’s Iran Reversal Raises Allies’ Doubts Over His Tactics, and U.S. Power",
+      "description": "The public response of Western politicians has been largely cautious, sometimes confused. But some analysts also praised Mr. Trump’s restraint.",
+      "url": "https://www.nytimes.com/2019/06/23/world/europe/trump-iran-usa.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/06/23/business/23iran-world-promo/23iran-world-promo-facebookJumbo-v2.jpg",
+      "publishedAt": "2019-06-23T20:47:22Z",
+      "content": "In Britain, the aborted strike revealed as much about Britains weakened influence on American policy as it did about American unpredictability, said Mr. Blunt, the senior Conservative lawmaker.\r\nDistracted by domestic disagreements over Brexit, and by a race … [+1119 chars]"
+    }, {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Woman left alone on board parked plane in Canada",
+      "description": "Tiffani Adams says she has experienced \"re-occurring night terrors\" since the incident.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-48739532",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/12B2E/production/_107509567_gettyimages-1130273721.jpg",
+      "publishedAt": "2019-06-23T18:54:25Z",
+      "content": "Image copyrightGetty ImagesImage caption\r\n Air Canada says it is investigating the incident\r\nA woman has said she was left alone on a locked Air Canada plane after falling asleep during a flight. \r\nTiffani Adams said she fell asleep while flying from Quebec t… [+1331 chars]"
+    }, {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Turkey ruling party set to lose Istanbul election",
+      "description": "Ruling party in Turkey set to lose city of Istanbul after re-run mayoral election in big blow for President Erdogan",
+      "url": "http://www.bbc.co.uk/news/world-europe-48739256",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7A23/production/_97176213_breaking_news_bigger.png",
+      "publishedAt": "2019-06-23T16:30:56Z",
+      "content": "Turkey's ruling party is set to lose control of Istanbul after a re-run of the mayoral election, initial results show.\r\nThe candidate for the main opposition party, Ekrem Imamoglu, has a commanding lead with more than 90% of votes counted.\r\nThis breaking news… [+264 chars]"
+    }, {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "https://www.facebook.com/Jakeshermanpolitico, https://www.facebook.com/Annapalmerpolitico/, https://www.facebook.com/daniellippman",
+      "title": "POLITICO Playbook: What Trump told Chuck Todd",
+      "description": "POLITICO Playbook: What Trump told Chuck Todd  Politico\r\nTrump says he's not ready for a 2020 election loss  CNN\r\nTrump: ‘2 weeks and big Deportation begins!’  POLITICO\r\nTrump-Haley in 2020  The Wall Street Journal\r\nBeyond bashing Trump, the Democrats' messag…",
+      "url": "https://www.politico.com/newsletters/playbook/2019/06/23/what-trump-told-chuck-todd-449576",
+      "urlToImage": "https://static.politico.com/da/f5/44342c424c68b675719324b1106b/politico.jpg",
+      "publishedAt": "2019-06-23T14:48:00+00:00",
+      "content": "\"Look, theyre not going to have a nuclear weapon,\" President Donald Trump told Chuck Todd, host of NBC's \"Meet Press.\" | Susan Walsh/AP Photo\r\nDRIVING THE DAY\r\nCHUCK TODD spoke to PRESIDENT DONALD TRUMP on NBCS MEET THE PRESS \r\n-- TRUMP on why Iran shot down … [+24662 chars]"
+    }, {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Leigh Morgan",
+      "title": "Storms possible again today, but not as many",
+      "description": "Isolated storms expected today with strong winds possible.",
+      "url": "https://www.al.com/news/2019/06/storms-possible-again-today-but-not-as-many.html",
+      "urlToImage": "https://www.al.com/resizer/ubFNCeFSIGW_PqBBxAMnsAG1v5I=/1200x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/UX3NZXGGQRDMLNMQDSHDAPPLHI.png",
+      "publishedAt": "2019-06-23T13:11:00+00:00",
+      "content": "Thunderstorms will again be part of the forecast for Alabama on Sunday, but there likely wont be as many.\r\nWell, maybe.\r\nThe Storm Prediction Center as of Sunday afternoon has expanded its marginal risk area to cover more of Alabama. A marginal risk means iso… [+1331 chars]"
+    }, {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": null,
+      "title": "Despite delay of ICE raids, immigrant communities mobilize for roundups",
+      "description": "President Trump said Democrats pushed him to postpone the mass arrests as they work toward a possible deal on overhauling the nation’s asylum laws.",
+      "url": "https://www.washingtonpost.com/immigration/despite-delay-of-ice-raids-immigrant-communities-mobilize-for-roundups/2019/06/23/be8d104e-95e3-11e9-916d-9c61607d8190_story.html",
+      "urlToImage": "https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2019/06/23/National-Politics/Images/Immigrant_Rights_Training_90587.jpg-7d857.jpg?t=20170517",
+      "publishedAt": "2019-06-23T12:43:00Z",
+      "content": "President Trumps decision to postpone the mass arrests of immigrant families with deportation orders offered a two-week reprieve to shaken cities and towns Sunday, but faith and immigration leaders said they will continue to mobilize for roundups in case talk… [+6701 chars]"
+    }, {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": null,
+      "title": "Pompeo confronts dual crises as he begins trip to Middle East, Asia",
+      "description": "The secretary of state will meet with Saudi and UAE officials to discuss the Iran crisis, talk about trade with India, and focus on North Korea in Japan and South Korea.",
+      "url": "https://www.washingtonpost.com/politics/pompeo-confronts-dual-crises-as-he-begins-trip-to-middle-east-asia/2019/06/23/c77180d0-95db-11e9-8d0a-5edd7e2025b1_story.html",
+      "urlToImage": "https://www.washingtonpost.com/resizer/z7-tRrnOIq64NqJuU7KF14PbbL8=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CT5QFZUV5II6TDIKL3OX4IBFWE.jpg",
+      "publishedAt": "2019-06-23T12:36:00Z",
+      "content": "Secretary of State Mike Pompeo is confronting two crises that are likely to define his legacy, as he starts an overseas trip with talks on Iran and will end it focusing on North Korea.\r\nAlthough Pompeo sounded optimistic about resuming negotiations with North… [+5323 chars]"
+    }, {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": null,
+      "title": "Opinion | Thursday will be a big deal for both Biden and Sanders",
+      "description": "Some advice to candidates as they head into the Democratic debate-fest.",
+      "url": "https://www.washingtonpost.com/opinions/advice-to-democrats-for-the-debate-fest/2019/06/23/6d7f92c8-9451-11e9-b570-6416efdc0803_story.html",
+      "urlToImage": "https://www.washingtonpost.com/resizer/xhgu_BfK34HhvDFGovmrPi55qYA=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ICSCBJUCKUI6TPHHIC2BAX34UA.jpg",
+      "publishedAt": "2019-06-23T12:31:00Z",
+      "content": "This weeks two-day Democratic ­debate-fest is so sprawling that it looks more like a New England town meeting than a confrontation among presidential candidates. But dont count on it being neighborly.\r\nFirst, advice to everyone: Figure out who you are. This m… [+4809 chars]"
+    }, {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": null,
+      "title": "Opinion | It’s time we tear up our economics textbooks and start over",
+      "description": "The Great Recession has rendered our teaching tools dated.",
+      "url": "https://www.washingtonpost.com/opinions/its-time-we-tear-up-our-economics-textbooks-and-start-over/2019/06/23/54794ab8-9432-11e9-b570-6416efdc0803_story.html",
+      "urlToImage": "https://www.washingtonpost.com/resizer/yzKK_u3ri1Dc7ONIoPnbapHg55M=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NJATYFBRMUI6TCWTTJNRCPWNHQ.jpg",
+      "publishedAt": "2019-06-23T12:28:00Z",
+      "content": "Harvard professor N. Gregory Mankiw is one of the most influential economists in the United States. But the 61-year-olds authority does not stem from advancing an arcane scholarly finding. Nor has Mankiw coined some catchy phrase that captured the popular ima… [+4580 chars]"
+    }, {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": null,
+      "title": "Opinion | Hackers are taking cities hostage. Here’s a way around it.",
+      "description": "Ransomware attacks on U.S. cities are on the rise, and it’s time to break the cycle.",
+      "url": "https://www.washingtonpost.com/opinions/hackers-are-taking-cities-hostage-heres-a-way-around-it/2019/06/23/f08b79ea-9459-11e9-aadb-74e6b2b46f6a_story.html",
+      "urlToImage": "https://www.washingtonpost.com/resizer/hGSK66cjbY8N4Yt2wBlf-F0n1h8=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XLHQM3VGGEI6NOSZU7MTCZOG2Q.jpg",
+      "publishedAt": "2019-06-23T12:23:00Z",
+      "content": "HACKERS ARE taking cities hostage, and some cities are paying ransom to the criminals. That needs to change.\r\nRansomware attacks on municipalities are on the rise. Last year, it was Atlanta, which spent $2.6 million to recover rather than pay the demanded $51… [+2279 chars]"
+    }, {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": null,
+      "title": "Analysis | The Trailer: What we learned in South Carolina this weekend",
+      "description": "In this edition: The lessons of a hot South Carolina weekend, the Iran (and ICE) debate that never happened, and the presidential candidate with Pennsylvania roots named \"Joe\" (not that one).",
+      "url": "https://www.washingtonpost.com/politics/paloma/the-trailer/2019/06/23/the-trailer-what-we-learned-in-south-carolina-this-weekend/5d0f64071ad2e552a21d5075/",
+      "urlToImage": "https://www.washingtonpost.com/pbox.php?url=https://palomaimages.washingtonpost.com/pr2/5706bea7b28582bb3330f1e02f06aab0-5619-3818-70-8-line_3_tstmp_1561316736.jpg&w=1484&op=resize&opt=1&filter=antialias&t=20170517",
+      "publishedAt": "2019-06-23T11:25:00Z",
+      "content": "In this edition: The lessons of a hot South Carolina weekend, the Iran (and ICE) debate that never happened, and the presidential candidate with Pennsylvania roots named Joe (not that one).\r\nComing your way from an airport where Cory Booker keeps getting inte… [+21812 chars]"
+    }, {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": null,
+      "title": "Opinion | Kamala Harris steps out of her comfort zone — and it works",
+      "description": "The California senator dazzled in South Carolina this weekend. But she needs to keep it up.",
+      "url": "https://www.washingtonpost.com/opinions/kamala-harris-steps-out-of-her-comfort-zone--and-it-works/2019/06/23/d0fb2fc0-95a9-11e9-916d-9c61607d8190_story.html",
+      "urlToImage": "https://www.washingtonpost.com/resizer/4e87FuKdF_W5NnxI2mctws5CR2E=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/W5N2VHEU7AI6TFLKRDBJDK24HA.jpg",
+      "publishedAt": "2019-06-23T10:30:00Z",
+      "content": "COLUMBIA, S.C.\r\nWhen Kamala D. Harris launched her campaign for the 2020 Democratic presidential nomination in January, it seemed that the senator from California might be the one in this crowded field who had it all: experience, charisma and the exciting pot… [+4444 chars]"
+    }, {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": null,
+      "title": "Opinion | The Venezuela crisis is going to get much worse — and Trump will get the blame",
+      "description": "The U.S. ban on Venezuelan oil prices may lead to Latin America’s first modern famine.",
+      "url": "https://www.washingtonpost.com/opinions/global-opinions/the-venezuela-crisis-is-going-to-get-much-worse--and-trump-will-get-the-blame/2019/06/23/c430fc4c-9370-11e9-b570-6416efdc0803_story.html",
+      "urlToImage": "https://www.washingtonpost.com/resizer/M7DVI-6veJ880l94YOtE6-qQuc4=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EYKLFGUUMII6TNLQMQLO7XAIAM.jpg",
+      "publishedAt": "2019-06-23T10:27:00Z",
+      "content": "On June 7, the U.N. Refugee Agency and the International Organization for Migration announced that the number of Venezuelans who had fled the country had surpassed 4 million. One million people of the fewer than 30 million remaining in what was once Latin Ame… [+4729 chars]"
+    }, {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": null,
+      "title": "Trump brushes off calls to investigate Jamal Khashoggi’s death",
+      "description": "“I think it’s been heavily investigated,” Trump said, when asked whether he’d order the FBI to open an investigation, as recommended by the United Nations. “I’ve seen so many different reports.”",
+      "url": "https://www.washingtonpost.com/politics/2019/06/23/trump-brushes-off-calls-investigate-jamal-khashoggis-death/",
+      "urlToImage": "https://www.washingtonpost.com/resizer/pR3sJ5RwP5vE2mRFgIY8H3vLCEo=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/66WIX4EVZQI6TGQW3RKR5JNEHM.jpg",
+      "publishedAt": "2019-06-23T10:22:00Z",
+      "content": "Days after a U.N. expert called for further investigation of Saudi Arabian officials involvement in the killing of Washington Post columnist Jamal Khashoggi, President Trump declined to say whether he would hold the countrys leaders responsible and asserted t… [+3985 chars]"
+    }, {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": null,
+      "title": "The Weekly | When ISIS Killed Cyclists on Their Journey Around the World",
+      "description": "Watch our new TV show from The New York Times on FX and Hulu",
+      "url": "https://www.nytimes.com/2019/06/21/the-weekly/isis-bike-attack-tajikistan.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/06/24/autossell/NYTW_COLLISON_NYT-STILL_BIKE-MEMORIAL-3/NYTW_COLLISON_NYT-STILL_BIKE-MEMORIAL-3-facebookJumbo.jpg",
+      "publishedAt": "2019-06-23T09:52:16.737Z",
+      "content": "Producer/Director Singeli Agnew \r\nAn American couple quit their Washington office jobs to bike around the world in search of experiences they couldnt find from behind their desks. After thousands of miles through more than two dozen countries, Jay Austin and … [+425 chars]"
+    }, {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": null,
+      "title": "Opinion | Mike Pence is just helpless",
+      "description": "But the Trump administration is not powerless in fixing appalling conditions at detention centers, and Pence knows it.",
+      "url": "https://www.washingtonpost.com/opinions/2019/06/23/mike-pence-is-just-helpless/",
+      "urlToImage": "https://www.washingtonpost.com/resizer/ri6HosS0qyD_hIY5WH0Sf_PTEJY=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/U37WXJUSBMI6TFLKRDBJDK24HA.jpg",
+      "publishedAt": "2019-06-23T09:10:00Z",
+      "content": "Rep. Alexandria Ocasio-Cortez (D-N.Y.) drew ire from some quarters this past week when she said the Trump administration was operating concentration camps along the countrys southern border. Even if Ocasio-Cortez wasnt backed by history and she was every day … [+3280 chars]"
+    }]
+  }
+}

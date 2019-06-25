@@ -1,0 +1,173 @@
+{
+  "data": {
+    "kind": "youtube#searchListResponse",
+    "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/3nol2vhX0BgtIbVVekvMXFsdOO0\"",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "US",
+    "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 5
+    },
+    "items": [{
+      "kind": "youtube#searchResult",
+      "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/Kk-H23r20t4I-S2zxc_CIcr1jf0\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ahCwqrYpIuM"
+      },
+      "snippet": {
+        "publishedAt": "2018-11-29T19:13:07.000Z",
+        "channelId": "UCsBjURrPoezykLs9EqgamOA",
+        "title": "TypeScript - The Basics",
+        "description": "TypeScript has forever altered the lives of JavaScript developers. Learn why TS is so awesome and the basic concepts required to be successful using it ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ahCwqrYpIuM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ahCwqrYpIuM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ahCwqrYpIuM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fireship",
+        "liveBroadcastContent": "none"
+      }
+    }, {
+      "kind": "youtube#searchResult",
+      "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/SHhrho7zdECPfU9wGyYjQkfoCP0\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WBPrJSw7yQA"
+      },
+      "snippet": {
+        "publishedAt": "2018-08-06T11:18:27.000Z",
+        "channelId": "UC80PWRj_ZU8Zu0HSMNVwKWw",
+        "title": "Learn TypeScript in 50 Minutes - Tutorial for Beginners",
+        "description": "Support - https://www.paypal.me/Codevolution Facebook - https://www.facebook.com/codevolutionweb Github - https://github.com/gopinav TypeScript is an ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WBPrJSw7yQA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WBPrJSw7yQA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WBPrJSw7yQA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Codevolution",
+        "liveBroadcastContent": "none"
+      }
+    }, {
+      "kind": "youtube#searchResult",
+      "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/R_l8U2WIZlJW6c62McuaGgNeI-E\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rAy_3SIqT-E"
+      },
+      "snippet": {
+        "publishedAt": "2017-01-31T19:52:44.000Z",
+        "channelId": "UC29ju8bIPH5as8OGnQzwJyA",
+        "title": "TypeScript Crash Course",
+        "description": "In this TypeScript tutorial we will look at how to install the TypeScript Compiler, all of the different data types, functions, interfaces and classes FULL COURSE: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rAy_3SIqT-E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rAy_3SIqT-E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rAy_3SIqT-E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Traversy Media",
+        "liveBroadcastContent": "none"
+      }
+    }, {
+      "kind": "youtube#searchResult",
+      "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/x_-jvJ0TaLEWSi6ZBJCxvE_aqhA\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Au-rrY0afe4"
+      },
+      "snippet": {
+        "publishedAt": "2019-05-07T23:21:33.000Z",
+        "channelId": "UCsMica-v34Irf9KVTh6xx-g",
+        "title": "What’s new in TypeScript - BRK3023",
+        "description": "TypeScript has introduced groundbreaking innovations over the last year. Between smarter inference, powerful expressivity, stricter checks, tooling, and faster ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Au-rrY0afe4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Au-rrY0afe4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Au-rrY0afe4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Microsoft Developer",
+        "liveBroadcastContent": "none"
+      }
+    }, {
+      "kind": "youtube#searchResult",
+      "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/5_TQ5nzXOUQqx3dbTnToLDtuDvA\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-PR_XqW9JJU"
+      },
+      "snippet": {
+        "publishedAt": "2016-09-28T11:48:46.000Z",
+        "channelId": "UCwRXb5dUK4cvsHbx-rGzSgw",
+        "title": "TypeScript Tutorial",
+        "description": "Code & Transcript : https://goo.gl/GDuzMc Best TypeScript Book : http://amzn.to/2d6ZjmM Support me on Patreon : https://www.patreon.com/derekbanas 00:30 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-PR_XqW9JJU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-PR_XqW9JJU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-PR_XqW9JJU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Derek Banas",
+        "liveBroadcastContent": "none"
+      }
+    }]
+  }
+}
