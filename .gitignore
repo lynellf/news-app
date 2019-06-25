@@ -1,3 +1,4 @@
 node_modules
 server/public/*
 server/main/*
+server/config.json
