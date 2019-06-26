@@ -2,8 +2,8 @@ import Main from './Main'
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 import App from '../src/views/App'
-import { TRenderRoot } from '../types/controllers/Application';
-import { Request } from 'express-serve-static-core';
+import { TRenderRoot } from '../types/controllers/Application'
+import { Request } from 'express-serve-static-core'
 
 export default class Application extends Main {
     handleRoot(_req: Request, res: TRenderRoot) {

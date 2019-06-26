@@ -1,9 +1,9 @@
 import fs from 'fs'
 import axios from 'axios'
-import { IMain, TConfig, TSources } from '../types/controllers/Main'
+import { TSources } from '../types/controllers/Main'
 import config from '../config.json'
 
-export default class Main implements IMain {
+export default class Main {
     public bundleName = 'bundle'
     public googleAPIKey = ''
     public googleCX = ''
@@ -14,35 +14,26 @@ export default class Main implements IMain {
         techNews: [],
         queries: []
     }
-    public staticDir = '/server/public'
+    public staticDir = 'server/public'
     
-    constructor(config: TConfig) {
-        const {
-            bundleName,
-            googleAPIKey,
-            googleCX,
-            newsAPIKey,
-            port,
-            sources,
-            staticDir
-        } = config
-        this.bundleName = bundleName ? bundleName : this.bundleName
-        this.googleAPIKey = googleAPIKey ? googleAPIKey : this.googleAPIKey
-        this.googleCX = googleCX ? googleCX : this.googleCX
-        this.newsAPIKey = newsAPIKey ? newsAPIKey : this.newsAPIKey
-        this.port = port ? parseInt(port) : this.port
-        this.sources = sources ? sources : this.sources
-        this.staticDir = staticDir ? staticDir : this.staticDir
+    constructor() {
+        this.bundleName = config.bundleName
+        this.googleAPIKey = config.googleAPIKey
+        this.googleCX = config.googleCX
+        this.newsAPIKey = config.newsAPIKey
+        this.port = parseInt(config.port)
+        this.sources = { ...config.sources }
+        this.staticDir = config.staticDir
     }
 
     static getBundle () {
-        const { bundleName, staticDir } = new this(config)
+        const { bundleName, staticDir } = new Main()
         const fileNames = fs.readdirSync(staticDir)
         const query = new RegExp(`${bundleName}.*.js`)
         const file = fileNames.filter(file => file.match(query))
         const hasFile = file !== null
         if (hasFile) return file[0]
-        return 'null'
+        return null
     }
 
     static async simpleFetch(url: string) {

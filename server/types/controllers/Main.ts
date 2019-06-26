@@ -1,6 +1,7 @@
 export interface IMain {
+    [key: string]: TMain
     bundleName: string
-    // getBundle: () => string | null
+    getBundle: () => string | null
     googleAPIKey: string
     googleCX: string
     newsAPIKey: string
@@ -9,8 +10,14 @@ export interface IMain {
     staticDir: string
 }
 
+export type TSetValue = { config: TConfig; key: string; context: IMain; }
+
+export type TFunction = () => string | null
+
+export type TMain = string | number | TSources | string[] | TFunction;
+
 export type TSources = {
-    [source: string]: string[]
+    [source: string]: string[] 
  }
 
 export type TConfig = {
@@ -22,3 +29,5 @@ export type TConfig = {
     sources: TSources
     staticDir: string
 }
+
+// export type TConfig = { [key: string]: string | number | TSources | string[] }

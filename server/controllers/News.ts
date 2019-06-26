@@ -2,6 +2,9 @@ import NewsApi from 'newsapi'
 import Main from './Main'
 import { TSearchArgs, TGetGoolgeSearch, TYouTubeSearchArgs } from '../types/controllers/News'
 import { Response } from 'express';
+import { IYoutubeResponse } from '../types/api/youtube';
+import { IGoogleResponse } from '../types/api/google';
+import { INewsResponse } from '../types/api/news';
 
 export default class News extends Main {
 	private _session = new NewsApi(this.newsAPIKey)
@@ -10,13 +13,13 @@ export default class News extends Main {
 
   private async getYouTubeResults(args: TYouTubeSearchArgs) {
     const queryURL = formatYouTubeQuery(args)
-    const results = await Main.simpleFetch(queryURL)
+    const results: IYoutubeResponse = await Main.simpleFetch(queryURL)
     return results
   }
 
   private async getGoogleResults(args: TGetGoolgeSearch) {
     const queryURL = formatGoogleQuery(args);
-    const results = await Main.simpleFetch(queryURL);
+    const results: IGoogleResponse = await Main.simpleFetch(queryURL);
     return results;
   }
 
@@ -25,7 +28,7 @@ export default class News extends Main {
 		const selectedSources = _sources[category]
 		const sources = selectedSources.join(',')
 		const config = { sources, language: 'en', pageSize: 100 }
-		const output = await session.topHeadlines(config)
+		const output: INewsResponse = await session.topHeadlines(config)
 		return output
   }
 
