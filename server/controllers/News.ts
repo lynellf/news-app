@@ -2,7 +2,7 @@ import NewsApi from 'newsapi'
 import Main from './Main'
 import NewsFormatter from '../Utils/NewsFormatter'
 import { TSearchArgs, TGetGoolgeSearch, TYouTubeSearchArgs } from '../types/controllers/News'
-import { Response } from 'express'
+import { Response, Request } from 'express'
 import { Data as IYoutubeResponse } from '../types/api/youtube'
 import { Data as IGoogleResponse } from '../types/api/google'
 import { Data as INewsResponse } from '../types/api/news'
@@ -107,5 +107,11 @@ export default class News extends Main {
 
 	public getNews = async (res: Response) => {
 		res.send({ data: await this.getAllNews() })
+	}
+
+	public parseArticle = async (req: Request, res: Response) => {
+		const { url } = req.body,
+			data = await this.getReaderView(url)
+		res.send({ data })
 	}
 }

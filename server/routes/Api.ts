@@ -23,4 +23,6 @@ Api.get('/all', (_req, res) => {
 	controller.getNews(res)
 })
 
+Api.post('/simple', (req, res) => controller.parseArticle(req, res))
+
 export default Api

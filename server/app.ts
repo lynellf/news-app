@@ -4,11 +4,15 @@ import logger from 'morgan'
 import Index from './routes/Index'
 import Api from './routes/Api'
 import config from './config.json'
+import bodyParser from 'body-parser'
 
 const server = express()
-const port = config.port ? parseInt(config.port) : 9000
+const port =
+	config.port ? parseInt(config.port) :
+	9000
 const expressServer = http.createServer(server)
 
+server.use(bodyParser())
 server.use(logger('dev'))
 server.set('views', 'server/views')
 server.set('view engine', 'pug')
@@ -18,5 +22,5 @@ server.use('/', Index)
 server.use('/api', Api)
 
 expressServer.listen(port, () => {
-    console.log(`Express Server Initalized on port ${port}.`)
+	console.log(`Express Server Initalized on port ${port}.`)
 })

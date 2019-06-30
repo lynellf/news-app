@@ -1,5 +1,7 @@
 import fs from 'fs'
 import axios from 'axios'
+import jsdom from 'jsdom'
+import readability from 'moz-readability-node'
 import { TSources } from '../types/controllers/Main'
 import config from '../config.json'
 
@@ -40,5 +42,18 @@ export default class Main {
 		const _response = await axios.get(url)
 		const data = _response.data
 		return data
+	}
+
+	public getReaderView = async (url: string) => {
+		const _response = await this.simpleFetch(url),
+			htmlString = _response,
+			{ JSDOM } = jsdom,
+			{ Readability } = readability,
+			dom = new JSDOM(htmlString),
+			window = dom.window,
+			document = window.document,
+			rawArticle = new Readability(document),
+			article = rawArticle.parse()
+		return article
 	}
 }
