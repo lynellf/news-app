@@ -1,8 +1,8 @@
 import express from 'express'
-import News from '../controllers/News'
+import NewsController from '../controllers/NewsController'
 
 const Api = express.Router()
-const controller = new News()
+const controller = new NewsController()
 
 Api.get('/headlines/:category', (req, res) => {
 	const category = req.params['category']

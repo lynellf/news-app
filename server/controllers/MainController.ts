@@ -5,7 +5,7 @@ import readability from 'moz-readability-node'
 import { TSources } from '../types/controllers/Main'
 import config from '../config.json'
 
-export default class Main {
+export default class MainController {
 	public bundleName = 'bundle'
 	public googleAPIKey = ''
 	public googleCX = ''
@@ -29,7 +29,7 @@ export default class Main {
 	}
 
 	public getBundle = () => {
-		const { bundleName, staticDir } = new Main()
+		const { bundleName, staticDir } = this
 		const fileNames = fs.readdirSync(staticDir)
 		const query = new RegExp(`${bundleName}.*.js`)
 		const file = fileNames.filter(file => file.match(query))

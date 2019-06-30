@@ -1,6 +1,6 @@
 import NewsApi from 'newsapi'
-import Main from './Main'
-import NewsFormatter from '../Utils/NewsFormatter'
+import Main from './MainController'
+import NewsModel from '../Models/NewsModel'
 import { TSearchArgs, TGetGoolgeSearch, TYouTubeSearchArgs } from '../types/controllers/News'
 import { Response, Request } from 'express'
 import { Data as IYoutubeResponse } from '../types/api/youtube'
@@ -8,7 +8,7 @@ import { Data as IGoogleResponse } from '../types/api/google'
 import { Data as INewsResponse } from '../types/api/news'
 import { flatMap } from '../Utils/Utils'
 
-export default class News extends Main {
+export default class NewsController extends Main {
 	private _session = new NewsApi(this.newsAPIKey)
 	private _version2 = this._session.v2
 	private session = this._version2
@@ -66,32 +66,30 @@ export default class News extends Main {
 			_topHeadlines = await this.performNewsSearch('generalNews'),
 			_techHeadlines = await this.performNewsSearch('techNews'),
 			_rawSearchResults = await Promise.all(searchQueries.map(query => this.performGoogleSearch({ query, days: 1 }))),
-			_searchResults = _rawSearchResults.map(result =>
-				flatMap(result.map(item => NewsFormatter.formatGoogleData(item)))
-			),
-			_rawTechHeadlines = NewsFormatter.formatNewsData(_techHeadlines),
+			_searchResults = _rawSearchResults.map(result => flatMap(result.map(item => NewsModel.formatGoogleData(item)))),
+			_rawTechHeadlines = NewsModel.formatNewsData(_techHeadlines),
 			techHeadlines = _rawTechHeadlines.map(item => ({ ...item, topic: 'techNews' })),
 			searchResults = flatMap(_searchResults),
-			topHeadlines = NewsFormatter.formatNewsData(_topHeadlines),
+			topHeadlines = NewsModel.formatNewsData(_topHeadlines),
 			output = [ ...searchResults, ...topHeadlines, ...techHeadlines ]
 		return output
 	}
 
 	public getHeadlines = async (category: string, res: Response) => {
 		const _results = await this.performNewsSearch(category),
-			results = NewsFormatter.formatNewsData(_results)
+			results = NewsModel.formatNewsData(_results)
 		res.send({ data: results })
 	}
 
 	public async getSearch(query: string, res: Response) {
 		const _results = await this.performGoogleSearch({ query, days: 1 }),
-			results = flatMap(_results.map(result => NewsFormatter.formatGoogleData(result)))
+			results = flatMap(_results.map(result => NewsModel.formatGoogleData(result)))
 		res.send({ data: results })
 	}
 
 	public getYouTube = async (query: string, res: Response) => {
 		const _results = await this.performYouTubeSearch(query),
-			results = NewsFormatter.formatYoutubeData(_results, query)
+			results = NewsModel.formatYoutubeData(_results, query)
 		res.send({ data: results })
 	}
 

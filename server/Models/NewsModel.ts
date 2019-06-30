@@ -1,10 +1,10 @@
 import { Data as INewsData, Article } from '../types/api/news'
 import { Data as IGoogleData, Item } from '../types/api/google'
 import { Data as IYouTubeData, Item as IYouTubeItem } from '../types/api/youtube'
-import { flatMap } from './Utils'
+import { flatMap } from '../Utils/Utils'
 import { IOutput } from '../types/api/Output'
 
-const NewsFormatter = {
+const NewsModel = {
 	formatNewsData: (newsData: INewsData) => {
 		if (!newsData) return []
 		const newsArticles = newsData.articles
@@ -89,5 +89,5 @@ export const {
 	mapGSearch,
 	mapYTSearch,
 	validateNewsItem
-} = NewsFormatter
-export default NewsFormatter
+} = NewsModel
+export default NewsModel
