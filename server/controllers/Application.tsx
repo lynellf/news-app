@@ -7,8 +7,8 @@ import { Request } from 'express-serve-static-core'
 
 export default class Application extends Main {
     handleRoot(_req: Request, res: TRenderRoot) {
-        const { port } = this
-        const jsBundle = Main.getBundle()
+        const { getBundle, port } = this
+        const jsBundle = getBundle()
         const application = ReactDOMServer.renderToString(<App />)
         res.render('index', { application, jsBundle, port })
     }

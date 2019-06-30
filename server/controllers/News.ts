@@ -1,79 +1,111 @@
 import NewsApi from 'newsapi'
 import Main from './Main'
+import NewsFormatter from '../Utils/NewsFormatter'
 import { TSearchArgs, TGetGoolgeSearch, TYouTubeSearchArgs } from '../types/controllers/News'
-import { Response } from 'express';
-import { IYoutubeResponse } from '../types/api/youtube';
-import { IGoogleResponse } from '../types/api/google';
-import { INewsResponse } from '../types/api/news';
+import { Response } from 'express'
+import { Data as IYoutubeResponse } from '../types/api/youtube'
+import { Data as IGoogleResponse } from '../types/api/google'
+import { Data as INewsResponse } from '../types/api/news'
+import { flatMap } from '../Utils/Utils'
 
 export default class News extends Main {
 	private _session = new NewsApi(this.newsAPIKey)
 	private _version2 = this._session.v2
 	private session = this._version2
 
-  private async getYouTubeResults(args: TYouTubeSearchArgs) {
-    const queryURL = formatYouTubeQuery(args)
-    const results: IYoutubeResponse = await Main.simpleFetch(queryURL)
-    return results
-  }
+	private getYouTubeResults = async (args: TYouTubeSearchArgs) => {
+		const queryURL = this.formatYouTubeQuery(args),
+			results: IYoutubeResponse = await this.simpleFetch(queryURL)
+		return results
+	}
 
-  private async getGoogleResults(args: TGetGoolgeSearch) {
-    const queryURL = formatGoogleQuery(args);
-    const results: IGoogleResponse = await Main.simpleFetch(queryURL);
-    return results;
-  }
+	private getGoogleResults = async (args: TGetGoolgeSearch) => {
+		const queryURL = this.formatGoogleQuery(args),
+			results: IGoogleResponse = await this.simpleFetch(queryURL)
+		return results
+	}
 
-  private async getNewsCategory(category: string) {
-    const { session, sources: _sources } = this
-		const selectedSources = _sources[category]
-		const sources = selectedSources.join(',')
-		const config = { sources, language: 'en', pageSize: 100 }
-		const output: INewsResponse = await session.topHeadlines(config)
+	private performNewsSearch = async (category: string) => {
+		const { session, sources: _sources } = this,
+			selectedSources = _sources[category],
+			sources = selectedSources.join(','),
+			config = { sources, language: 'en', pageSize: 100 },
+			output: INewsResponse = await session.topHeadlines(config)
 		return output
-  }
+	}
 
-  private async performGoogleSearch(args: TSearchArgs) {
-    const { getGoogleResults, googleAPIKey: key, googleCX: cx } = this
-		const { query, days } = args
-		const hasArgs = query && days
+	private performGoogleSearch = async (args: TSearchArgs) => {
+		const { getGoogleResults, googleAPIKey: key, googleCX: cx } = this,
+			{ query, days } = args,
+			hasArgs = query && days,
+			maxPages = 3
+		let page = 1,
+			output: IGoogleResponse[] = []
 		if (!hasArgs) throw new Error('Params are not properly set')
-    if (hasArgs) return await getGoogleResults({ cx, days, key, query })
-    return null
-  }
-  
-  private async performYouTubeSearch(query: string) {
-    const key = this.googleAPIKey
-    const hasArgs = query && key
-    if (!hasArgs) throw new Error('Params are not properly set')
-    if (hasArgs) return await this.getYouTubeResults({ key, query })
-    return null
-  }
+		if (hasArgs) {
+			while (page <= maxPages) {
+				const _results = await getGoogleResults({ cx, days, key, query, page })
+				output = [ ...output, _results ]
+				page++
+			}
+			return output
+		}
+		return null
+	}
 
-  public async getHeadlines(category: string, res: Response) {
-    const results = await this.getNewsCategory(category)
-    res.send({ data: results })
-  }
+	private performYouTubeSearch = async (query: string) => {
+		const key = this.googleAPIKey,
+			hasArgs = query && key
+		if (!hasArgs) throw new Error('Params are not properly set')
+		if (hasArgs) return await this.getYouTubeResults({ key, query })
+		return null
+	}
 
-  public async getSearch(query: string, res: Response) {
-    const results = await this.performGoogleSearch({ query, days: 30 })
-    res.send({ data: results })
-  }
+	private getAllNews = async () => {
+		const searchQueries = this.sources.queries,
+			_topHeadlines = await this.performNewsSearch('generalNews'),
+			_techHeadlines = await this.performNewsSearch('techNews'),
+			_rawSearchResults = await Promise.all(searchQueries.map(query => this.performGoogleSearch({ query, days: 1 }))),
+			_searchResults = _rawSearchResults.map(result =>
+				flatMap(result.map(item => NewsFormatter.formatGoogleData(item)))
+			),
+			_rawTechHeadlines = NewsFormatter.formatNewsData(_techHeadlines),
+			techHeadlines = _rawTechHeadlines.map(item => ({ ...item, topic: 'techNews' })),
+			searchResults = flatMap(_searchResults),
+			topHeadlines = NewsFormatter.formatNewsData(_topHeadlines),
+			output = [ ...searchResults, ...topHeadlines, ...techHeadlines ]
+		return output
+	}
 
-  public async getYouTube(query: string, res: Response) {
-    const results = await this.performYouTubeSearch(query)
-    res.send({ data: results })
-  }
+	public getHeadlines = async (category: string, res: Response) => {
+		const _results = await this.performNewsSearch(category),
+			results = NewsFormatter.formatNewsData(_results)
+		res.send({ data: results })
+	}
 
-  static formatGoogleQuery(args: TGetGoolgeSearch) {
-		const { cx, days, key, query } = args
-		return `https://www.googleapis.com/customsearch/v1?key=${key}&cx=${cx}&q=${query}&dateRestrict=${days}`
-  }
-  
-  static formatYouTubeQuery(args: TYouTubeSearchArgs) {
-    const { query, key } = args
-    return `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=${key}`
-  }
+	public async getSearch(query: string, res: Response) {
+		const _results = await this.performGoogleSearch({ query, days: 1 }),
+			results = flatMap(_results.map(result => NewsFormatter.formatGoogleData(result)))
+		res.send({ data: results })
+	}
+
+	public getYouTube = async (query: string, res: Response) => {
+		const _results = await this.performYouTubeSearch(query),
+			results = NewsFormatter.formatYoutubeData(_results, query)
+		res.send({ data: results })
+	}
+
+	public formatGoogleQuery = (args: TGetGoolgeSearch) => {
+		const { cx, days, key, query, page } = args
+		return `https://www.googleapis.com/customsearch/v1?key=${key}&cx=${cx}&q=${query}&dateRestrict=${days}&start=${page}0`
+	}
+
+	public formatYouTubeQuery = (args: TYouTubeSearchArgs) => {
+		const { query, key } = args
+		return `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=${key}`
+	}
+
+	public getNews = async (res: Response) => {
+		res.send({ data: await this.getAllNews() })
+	}
 }
-
-export const formatGoogleQuery = News.formatGoogleQuery
-export const formatYouTubeQuery = News.formatYouTubeQuery

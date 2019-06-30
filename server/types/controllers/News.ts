@@ -1,30 +1,31 @@
 import { TSources } from './Main'
 
 export type TGetNewsArgs = {
-	category: string
 	_sources: TSources
+	category: string
 }
 
 export type TSearchArgs = {
-	query: string
 	days: number
+	query: string
 }
 
-export type TGoogleSearchArgs = { 
-  cx: string
-  days: number
-  key: string
-  query: string 
-}
-
-export type TGetGoolgeSearch = {
+export type TGoogleSearchArgs = {
 	cx: string
 	days: number
 	key: string
 	query: string
 }
 
-export type TYouTubeSearchArgs = {
-	query: string
+export type TGetGoolgeSearch = {
+	cx: string
+	days: number
 	key: string
+	page: number
+	query: string
+}
+
+export type TYouTubeSearchArgs = {
+	key: string
+	query: string
 }
